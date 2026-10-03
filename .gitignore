@@ -1,0 +1,48 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Testing / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Packaging/build artifacts
+build/
+dist/
+*.egg-info/
+
+# IDE/editor
+.vscode/
+.idea/
+*.swp
+
+# OS files
+.DS_Store
+
+# Simulation outputs
+results/
+results_*/
+
+# Logs
+logs_24h/
+*.log
+
+# Generated paper figures
+paper_figs/
+
+# Draft material
+draft1/
+
+# Generated/local scripts you don't want in repo
+make_figures.py
+
+# Misc temporary files
+*.tmp
+*.bak
